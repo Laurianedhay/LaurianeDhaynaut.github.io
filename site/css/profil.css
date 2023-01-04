@@ -1,0 +1,142 @@
+.haut {
+    padding-top: 20vw;
+
+}
+
+.modifier {
+    margin-left: 80vw;
+    width :15%;
+    font-size: 1.5vw;
+}
+
+.page {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+section .premier {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width : 50%;
+    padding: 2vw 2vw 2vw 2vw;
+    margin: 2vw 2vw 2vw 2vw;
+}
+
+.tête {
+    display: inline-flex;
+    text-align: left;
+}
+
+.nomprenom {
+    width : 100%;
+    margin-right:20vw ;
+}
+
+.nomprenom input {
+    width : 150% ;
+    font-size: 1.5vw;
+}
+
+.nomprenom h1 {
+    font-size: 2vw;
+    width: 15vw;
+    margin-top :2vw;
+}
+
+.nomprenom p{
+    font-size: 1.5vw;
+}
+
+.profil {
+    width : 80%;
+}
+
+.info {
+    border: solid;
+    border-color: rgba(211, 211, 211, 0) ;
+    background-color: rgba(211, 211, 211, 0.719);
+    border-radius: 2vw;
+    margin-bottom:10vw;
+    margin-top: 4vw;
+    padding: 2vw 2vw 2vw 2vw;
+}
+
+.info h2 {
+    font-size: 2vw;
+    text-decoration: underline;
+    margin-bottom: 2.5vw;
+
+}
+
+.info input{
+    margin-bottom: 1vw;
+    width:80%;
+    font-size: 1.5vw;
+    
+}
+
+.info p {
+    font-size: 2vw ;
+}
+
+.deuxieme {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 10vw ;
+    margin-bottom: 10vw;
+    margin-top: 3vw;
+}
+
+.deuxieme h2 {
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+    text-decoration: underline;
+}
+
+.deuxieme h3 {
+    font-size: 2vw;
+}
+
+.deuxieme p {
+    font-size: 2vw;
+}
+
+.trajetsfav {
+    border: solid;
+    border-color: rgba(211, 211, 211, 0) ;
+    background-color: rgba(211, 211, 211, 0.719);
+    border-radius: 2vw;
+    height: 20vw;
+    margin-bottom: 2vw;
+    padding : 2vw 2vw 2vw 2vw;
+
+}
+
+.historique {
+    border: solid;
+    border-color: rgba(211, 211, 211, 0) ;
+    background-color: rgba(211, 211, 211, 0.719);
+    border-radius: 2vw;
+    height: 20vw;
+    padding : 2vw 2vw 2vw 2vw;
+}
+
+.checkedj {
+    color : orange;
+}
+
+.checkedr {
+    color:#ae2473;
+}
+
+.checkedv {
+    color:darkmagenta;
+}
+
+.checked {
+    color: rgb(12, 12, 94);
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposer un trajet - Moovle</title>
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/proposer.css">
+    <script src="https://kit.fontawesome.com/ecff8d8d3f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header> 
+        <table class="premierelig" >
+            <tr>
+                <td> 
+                    <select name="langue" required>
+                        <option value="">Français (fr)</option>
+                        <option value="">Anglais (en)</option>
+                    </select>
+                </td>
+                <td>                                     </td>
+                <td class="images"><a href="../pages/messagerie.html"><img src="../images/bulle2.png" alt="Tchat" class="petit"/></a><a href="../pages/profil.html"><img src="../images/personne1.png" alt="Personne" class="petit"/></a></td>
+            </tr>
+        </table>
+
+        <p class="deuxiemelig">
+            <a href="../index2.html"><img src="../images/logo2.png" alt="Logo IUT A" class="logo"/></a>
+            <a href="index2.html"><img src="../images/Logomoovle2.png" alt="Moovle ULille" class="moovle"></a>
+        </p>
+
+        <nav>
+            <ul>
+                <li><a href="../index2.html">Accueil</a></li>
+                <li class="deroulant"><a href="../pages/covoiturage.html">Covoiturage </a>
+                    <ul class="sous">
+                        <li><a href="../pages/proposer.html">Proposer un trajet</a></li>
+                        <li><a href="../pages/trouver.html">Trouver un trajet</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant"><a href="../pages/location.html">Locations </a>
+                    <ul class="sous">
+                        <li><a href="../pages/location.html">Vélos et trottinettes</a></li>
+                        <li><a href="../pages/location.html">Rollers et skateboards</a></li>
+                    </ul>
+                </li>
+                <li><a href="../pages/apropos.html">A propos</a></li>
+            </ul>
+            </nav>
+
+    </header>
+
+    <main>
+
+        <section class="proposer">
+
+            <p><a href="../pages/trouver.html"><button class ="first">⊕ Trouver un trajet</button></a></p>
+
+            <table>
+                <tr>
+                    <th colspan="4">Proposer un trajet   </th>
+                </tr>
+
+                <tr>
+                    <td>Lieu de Départ </td>
+                    <td><input placeholder="ex : IUT A Lille..." type="text" tabindex="1" required></td>
+                    
+                </tr>
+
+                <tr> 
+                    <td>Lieu d'arrivée</td>
+                    <td><input placeholder="ex : Armentière" type="text" tabindex="1" required> </td>
+                </tr>
+
+                <tr>
+                    <td> Date et heure de départ </td>
+                    <td><input type="datetime-local"/></td>
+                </tr>
+
+                <tr>
+                    <td>Combien de passagers ? </td>
+                    <td> <input type="number" placeholder="Nombre de passagers" step="1" min="0" max="4"></td>
+                </tr>
+
+                <tr> 
+                    <td>Prix (en euros) : </td>
+                    <td> <input type="number" placeholder="Prix" step="1" min="0" max="20"></td>
+                </tr>
+                
+                <tr>
+                    <td>Type de véhicule : </td>
+                    <td><input placeholder="ex: Peugeot 206" type="text" tabindex="1" required></td>
+                </tr>
+
+                <tr>
+                    <td> Permis de conduire : </td>
+                    <td><input placeholder="ex: 92151600N7492" type="text" tabindex="1" required> <a href="../images/permis1.jpeg"><span class="info"><img src="../images/info.png"></span></a> </td>
+                </tr>
+
+                <tr>
+                    <td>Numéro de téléphone : </td>
+                    <td><input placeholder="ex: 0679275382" type="text" tabindex="1" required></td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="4"><button class="publier"> Publier mon trajet</td>
+                </tr>
+
+                <tr></tr>
+
+            
+
+            </table>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer">
+
+            <div class="sous-footer">
+
+                <h4>A propos</h4>
+                <p>Conseils général d'utilisation</p>
+                <p>Données personnelles </p>
+                <p>Mentions légales</p>
+                <p><a href="../pages/signalez.html">Signalez un abus </a> </p>
+
+
+            </div>
+
+            <div class="sous-footer">
+
+                <h4>Moodle</h4>
+                <p>Qui sommes-nous?</p>
+                <p><a href="https://ent.univ-lille.fr/"><i class="far fa-hand-point-left"></i> Retour à l'Ent </a></p>
+                
+            </div>
+
+            <div class="sous-footer">
+                <h4>Methodes de paiements</h4>
+                <img src="../images/paiement.png" alt="methode de paiement">
+            </div>
+
+
+        </div>
+    </footer>
+</body>
+</html>

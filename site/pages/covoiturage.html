@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coivoiturage - Moovle</title>
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/covoiturage.css">
+    <script src="https://kit.fontawesome.com/ecff8d8d3f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header> 
+        <table class="premierelig" >
+            <tr>
+                <td> 
+                    <select name="langue" required>
+                        <option value="">Français (fr)</option>
+                        <option value="">Anglais (en)</option>
+                    </select>
+                </td>
+                <td>                                     </td>
+                <td class="images"><a href="messagerie.html"><img src="../images/bulle2.png" alt="Tchat" class="petit"/></a><a href="profil.html"><img src="../images/personne1.png" alt="Personne" class="petit"/></a></td>
+            </tr>
+        </table>
+
+
+        <p class="deuxiemelig">
+            <a href="../index2.html"><img src="../images/logo2.png" alt="Logo IUT A" class="logo"/></a>
+            <a href="index2.html"><img src="../images/Logomoovle2.png" alt="Moovle ULille" class="moovle"></a>
+        </p>
+
+
+        
+        
+
+        <nav>
+            <ul>
+                <li><a href="../index2.html">Accueil</a></li>
+                <li class="deroulant"><a href="../pages/covoiturage.html">Covoiturage </a>
+                    <ul class="sous">
+                        <li><a href="../pages/proposer.html">Proposer un trajet</a></li>
+                        <li><a href="../pages/trouver.html">Trouver un trajet</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant"><a href="../pages/location.html">Locations </a>
+                    <ul class="sous">
+                        <li><a href="../pages/location.html">Vélos et trottinettes</a></li>
+                        <li><a href="../pages/location.html">Rollers et skateboards</a></li>
+                    </ul>
+                </li>
+                <li><a href="../pages/apropos.html">A propos</a></li>
+            </ul>
+            </nav>
+
+    </header>
+
+    <main>
+
+        <section class="intro">
+
+            <div>
+
+                <img src="../images/voiture1.png">
+
+            </div>
+
+            <div>
+
+            <h2>Covoiturage </h2>
+
+            <p>Le covoiturage est un excellent moyen de se déplacer de nos jours. Nous savons que certaines personnes de l'université ont des difficultés 
+                pour se rendre à l'université. Grâce à cette initiative, les élèves ayant une voiture et habitant proches d'autres élèves pourront plus 
+                aisément se rendre à l'université grâce au covoiturage. Fini les longs trajets 1h30 pour se rendre à la fac !
+            </p>
+        
+            </div>
+
+        </section>
+
+        <section class="covoit">
+
+            <h1>Besoin d'un covoit'? </h1>
+
+            <form>
+
+                
+                <table>
+                    <h3> <i class="fas fa-map-signs"></i> Trouver un trajet </h3>
+                    <tr>
+                        <td> Départ</td>
+                        <td rowspan="2"><i class="fas fa-calendar-week"></i> Date</td>
+                        <td rowspan="2"><span class="fas fa-clock"></span>Heure</td>
+                        <td rowspan="4"><a href="../pages/trouver.html"><i class="fas fa-search loupe"></i></a></td>
+                    </tr>
+
+                    <tr>
+                        <td> <input placeholder="ex : IUT A Lille..." type="text" tabindex="1" required></td>
+                       
+                        
+                    </tr>
+
+                    <tr>
+                        <td> Destination</td> 
+                        <td><input type="date" /> </td>
+                        <td><input type="time"/></td>
+                    </tr>
+
+                    <tr>
+                        <td><input placeholder="ex : Armentière..." type="text" tabindex="1" required></td>
+                        
+                    </tr>
+
+                </table>
+            </form>
+        </section>
+
+
+        <section class="proposer">
+
+            <h1>Proposer un covoiturage</h1>
+
+            <p>Vous allez à l'université en voiture ? Vous souhaitez vous rendre utile en prenant d'autres élèves sur la route ? </p>
+
+            <p><a href="../pages/proposer.html">Cliquez-ici, pour déposer votre trajet.</a></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer">
+
+            <div class="sous-footer">
+
+                <h4>A propos</h4>
+                <p>Conseils général d'utilisation</p>
+                <p>Données personnelles </p>
+                <p>Mentions légales</p>
+                <p><a href="../pages/signalez.html">Signalez un abus </a> </p>
+
+
+            </div>
+
+            <div class="sous-footer">
+
+                <h4>Moodle</h4>
+                <p>Qui sommes-nous?</p>
+                <p><a href="https://ent.univ-lille.fr/"><i class="far fa-hand-point-left"></i> Retour à l'Ent </a></p>
+                
+            </div>
+
+            <div class="sous-footer">
+                <h4>Methodes de paiements</h4>
+                <img src="../images/paiement.png" alt="methode de paiement">
+            </div>
+
+
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,193 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+/* header */
+
+.premierelig {
+    height : 1vw ;
+    width: 100%;
+}
+
+.premierelig img{
+   width: 10%;
+   margin-left: 2vw;
+
+}
+
+.premierelig table{
+    margin-left : 100vw;
+    margin-right : 100vw;
+    height : 50px;
+    empty-cells:show;
+}
+
+.premierelig select{
+    margin-top: -2vw;
+}
+
+.premierelig td {
+    width:33%;
+}
+
+.premierelig .images {
+    text-align: right;
+}
+
+.deuxiemelig {
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.deuxiemelig .logo{
+    width:6%;
+    margin-top: -1vw ;
+    margin-bottom: 2vw;
+}
+
+.deuxiemelig .moovle {
+    width : 25%;
+    margin-bottom: 4vw;
+    margin-left: 30vw ;
+}
+
+header {
+    background-color:#2a2f42;
+    border-bottom: #ae2473;
+    height : 15vw;
+    position: fixed;
+   
+}
+
+/* menu de navigation */
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color:#2a2f42;
+    position: sticky;
+    top: 0px;
+    color: white;
+    position:fixed;
+    margin-top: 10vw ;
+
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    min-width: 100%;
+    
+}
+
+nav ul li{
+    flex: 1 1 auto;
+    justify-content: space-between;
+    margin-left: 2vw;
+    text-align: center;
+    position: relative;
+    margin-right: 2vw;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px; background-color: #ae2473;
+    border-style:solid;
+    border-color: #57143a;
+    border-radius: 15px;
+}
+
+nav a:hover{
+    color:white;
+    background-color:#ae2473;
+    border-style: solid;
+    border-color: #57143a;
+    padding : 10px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.sous{
+    display:none;
+    position: absolute;
+    
+}
+
+nav > ul li:hover .sous{
+    display: flex;
+    flex-flow: column wrap;
+    color:#ae2473 ;
+    width: 7%;
+
+
+}
+
+.sous a{
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: 2px solid #ae2473 ;
+    background-color:#ac4680;
+
+}
+.deroulant > a::after{
+    font-size: 10vw;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 150vw;
+}
+
+/* footer */
+
+/* footer */
+
+footer{
+    background-color: #2a2f42;
+    color: white;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color:#ae2473;
+}
+
+footer .footer{
+    margin-top: 0vw;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:100%;
+    padding: 5vh 0vw;
+
+}
+
+.sous-footer {
+    display: flex;
+    flex-direction: column;
+    width : 100%;
+    text-align: center;
+}
+
+footer img{
+    width:25%;
+    margin-left: 10vw;
+    max-width: 25%;
+    min-width: 25%;
+}

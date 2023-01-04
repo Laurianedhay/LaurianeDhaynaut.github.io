@@ -1,0 +1,139 @@
+*{
+    font-family: "Open Sans","Helvetica Neue", Arial, Helvetica , sans-serif;
+}
+
+.first {
+    width:19%;
+    font-size: 2vw;
+    text-align: center;
+    margin-left: 75vw;
+    margin-bottom: 2vw;
+    margin-top: 3vw;
+}
+
+h1 {
+    margin-bottom: 3vw;
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 2vw;
+    text-align: left;
+    margin-left: 17vw;
+    color: #57143a;
+}
+
+form{
+    margin-top: 2vw;
+    text-align: right;
+    font-size: 1.5vw;
+}
+
+.covoit{
+    padding-top: 17vw;
+    background-color:#2a2f4228;
+    color:black;
+    margin-left: -1vw;
+    margin-right: -1vw;
+    height: 39vw;
+    font-size: 2.5vw;
+    text-align: center;
+
+}
+
+.covoit table {
+    border: 0.5vw solid lightgray;
+    border-radius: 20px;
+    border-color: #ae2473;
+    font-size: 2vw;
+    margin: auto;
+    text-align: left;
+    width: 70vw;
+    height:13vw;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+
+.arrow {
+   width:20%;
+}
+
+.loupe {
+    color:#ae2473;
+}
+
+.covoit table tr td input{
+    width:50%;
+
+
+}
+ 
+.covoit td {
+    width : 28%;
+    padding-left: 2vw;
+    padding-right: 4vw;
+}
+
+.covoit .loupe {
+    text-align: right;
+    vertical-align: middle;
+    width : 10%;
+
+}
+
+.covoit a img:hover{
+    width:40%;
+}
+
+.checked {
+    color:orange;
+}
+
+.liste {
+    background-color: rgba(128, 128, 128, 0.349);
+    text-align: center;
+   
+}
+
+.liste h1 {
+    font-size: 3vw;
+    padding-top: 2vw;
+}
+
+.liste td {
+    height : 4vw;
+}
+
+.liste th {
+    font-size: 2.5vw;
+}
+
+.liste table{
+    margin-left: 4vw;
+    border-color: black;
+    border-style: solid;
+    width: 90%;
+    border-radius: 2vw;
+    background-color: white;
+    text-align: center;
+}
+
+.liste button {
+    width : 50%;
+    background-color:#ae2473;
+    color:whitesmoke;
+    font-size: 1.3vw;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.liste div{
+    padding-top: 2vw;
+}
+
+.liste img {
+    width:20%;
+    max-width: 20%;
+    min-width: 20%;
+}

@@ -1,0 +1,30 @@
+section{
+    padding-top: 20vw;
+    padding-bottom: 4vw;
+    text-align: center;
+}
+
+.regle{
+    width: 50%;
+}
+
+h1{
+    text-decoration: underline;
+    font-size: 4vw;
+}
+
+section p{
+    padding-top: 0.9vw;
+    font-size: 1.5vw;
+}
+
+.reglement {
+    padding-top: 2vw;
+    margin-left: 7vw;
+    width:85%;
+    background-color: #2a2f4267;
+    border-radius: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}

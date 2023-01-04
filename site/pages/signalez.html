@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trouver un trajet - Moovle</title>
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/signalez.css">
+    <script src="https://kit.fontawesome.com/ecff8d8d3f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header> 
+        <table class="premierelig" >
+            <tr>
+                <td> 
+                    <select name="langue" required>
+                        <option value="">Français (fr)</option>
+                        <option value="">Anglais (en)</option>
+                    </select>
+                </td>
+                <td>                                     </td>
+                <td class="images"><a href="messagerie.html"><img src="../images/bulle2.png" alt="Tchat" class="petit"/></a><a href="profil.html"><img src="../images/personne1.png" alt="Personne" class="petit"/></a></td>
+            </tr>
+        </table>
+
+        <p class="deuxiemelig">
+            <a href="../index2.html"><img src="../images/logo2.png" alt="Logo IUT A" class="logo"/></a>
+            <a href="index2.html"><img src="../images/Logomoovle2.png" alt="Moovle ULille" class="moovle"></a>
+        </p>
+
+        <nav>
+            <ul>
+                <li><a href="../index2.html">Accueil</a></li>
+                <li class="deroulant"><a href="../pages/covoiturage.html">Covoiturage </a>
+                    <ul class="sous">
+                        <li><a href="../pages/proposer.html">Proposer un trajet</a></li>
+                        <li><a href="../pages/trouver.html">Trouver un trajet</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant"><a href="../pages/location.html">Locations </a>
+                    <ul class="sous">
+                        <li><a href="../pages/location.html">Vélos et trottinettes</a></li>
+                        <li><a href="../pages/location.html">Rollers et skateboards</a></li>
+                    </ul>
+                </li>
+                <li><a href="../pages/apropos.html">A propos</a></li>
+            </ul>
+            </nav>
+
+    </header>
+
+    <main>
+
+        <section class="formulaire">
+
+            <form action="" method="post">
+                <h3>Signalez un abus </h3>
+                <h4>Nous vous répondrons au plus vite </h4>
+                  <input placeholder="Votre nom" type="text" tabindex="1" required>
+                  <select name="raison" required>
+                      <option value="">-- Sélectionnez une raison --</option>
+                      <option value="suggestion">Reporter un utilisateur </option>
+                      <option value="support">Besoin d'aide</option>
+                      <option value="other">Autre...</option>
+                  </select>
+                  <input placeholder="Votre adresse email" type="email" tabindex="2" required>
+                  <input placeholder="Votre numéro de téléphone (facultatif)" type="tel" tabindex="3">
+                  <textarea placeholder="Tapez votre message ici..." tabindex="5" required></textarea>
+                  <button name="envoyer" type="submit" id="contact-submit" data-submit="...Sending">Envoyer</button>
+              </form>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+
+        <div class="footer">
+
+            <div class="sous-footer">
+
+                <h4>A propos</h4>
+                <p>Conseils général d'utilisation</p>
+                <p>Données personnelles </p>
+                <p>Mentions légales</p>
+                <p><a href="../pages/signalez.html">Signalez un abus </a> </p>
+
+            </div>
+
+            <div class="sous-footer">
+
+                <h4>Moodle</h4>
+                <p>Qui sommes-nous?</p>
+                <p><a href="https://ent.univ-lille.fr/"><i class="far fa-hand-point-left"></i> Retour à l'Ent </a></p>
+                
+            </div>
+
+            <div class="sous-footer">
+                <h4>Methodes de paiements</h4>
+                <img src="../images/paiement.png" alt="methode de paiement">
+            </div>
+
+
+
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,121 @@
+section {
+    padding-top: 25vw;
+    display: flex;
+}
+
+.discussion {
+    background-color: #2a2f4233;
+    padding : 4vw 4vw 4vw 4vw ;
+    border-radius: 2vw;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    margin-bottom: 4vw;
+    width: 90%;
+
+}
+
+.me {
+    font-size: 1.5vw;
+}
+
+.him {
+    font-size: 1.5vw;
+}
+
+.discussion input {
+    width: 100%;
+    height: 5vw;
+    border-radius: 1vw;
+    border-color: #ae247200;
+    margin-right: 1vw;
+}
+
+.envoyer {
+    margin-top: 32vw;
+    display: flex;
+    font-size: 2vw;
+    border-style: none;
+    border: none;
+    border-color: #ae247200;
+}
+
+.envoyer button {
+    width : 10%;
+    border-radius: 1vw;
+    border-color: #ae247200;
+}
+
+button:hover {
+    background-color: rgba(128, 128, 128, 0.685);
+    border-style: solid ;
+    border-color: gray;
+}
+
+.dicussion ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.discussion ul li{
+display:inline-block;
+clear: both;
+padding: 2vw;
+border-radius: 3vw;
+margin-bottom: 0.2vw;
+font-family: Helvetica, Arial, sans-serif;
+margin-bottom: 2vw;
+}
+
+.discussion .him{
+background: #eee;
+float: left;
+}
+
+.discussion .me{
+float: right;
+background: #ae2472;
+color: #fff;
+}
+
+.discussion .him:last-of-type {
+    border-bottom-left-radius: 5px;
+}
+
+.conv {
+    width : 100%;
+    margin-right: 15vw;
+    border-bottom-style: solid;
+    border-color: grey ;
+    border-width: 0.1vw;
+
+}
+
+.recherche {
+    display: flex;
+    width :100%;
+    height: 2.5vw;
+    padding-bottom: 4vw;
+}
+
+.barrederecherche {
+    width: 30vw;
+}
+
+.checkedl {
+    color:#ae2472;
+}
+
+.checked {
+    color: rgb(5, 168, 5);
+    width: 10%;
+}
+
+.diffdiscuss p {
+    font-size: 1.5vw;
+}
+
+.diffdiscuss h1 {
+    font-size: 2vw;
+}
+

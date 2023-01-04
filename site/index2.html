@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Moovle</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/site.css">
+    <script src="https://kit.fontawesome.com/ecff8d8d3f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header> 
+        <table class="premierelig" >
+            <tr>
+                <td> 
+                    <select name="langue" required>
+                        <option value="">Français (fr)</option>
+                        <option value="">Anglais (en)</option>
+                    </select>
+                </td>
+                <td>                                     </td>
+                <td class="images"><a href="pages/messagerie.html"><img src="images/bulle2.png" alt="Tchat" class="petit"/></a><a href="pages/profil.html"><img src="images/personne1.png" alt="Personne" class="petit"/></a></td>
+            </tr>
+        </table>
+
+      <p class="deuxiemelig">
+
+              <a href="accueil.html"><img src="images/logo2.png" alt="Logo IUT A" class="logo"/></a>
+              <a href="index2.html"><img src="images/Logomoovle2.png" alt="Moovle ULille" class="moovle"></a>
+       
+      </p>
+
+        <nav>
+        <ul>
+            <li><a href="index2.html">Accueil</a></li>
+            <li class="deroulant"><a href="pages/covoiturage.html">Covoiturage </a>
+                <ul class="sous">
+                    <li><a href="pages/proposer.html">Proposer un trajet</a></li>
+                    <li><a href="pages/trouver.html">Trouver un trajet</a></li>
+                </ul>
+            </li>
+            <li class="deroulant"><a href="pages/location.html">Locations </a>
+                <ul class="sous">
+                    <li><a href="pages/location.html">Vélos et trotinettes</a></li>
+                    <li><a href="pages/location.html">Rollers et skate-boards </a></li>
+                </ul>
+            </li>
+            <li><a href="pages/apropos.html">A propos</a></li>
+        </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="explications">
+
+            <h3>
+                C'est quoi Moovle?
+            </h3>
+
+            <p>
+                L'université de Lille a récemment pris la décision d'ouvrir la plateforme Moovle afin de permettre aux étudiants de se déplacer 
+                dans l'enceinte du campus et dans ses alentours. Cette initiative a été prise à des fins écologiques et économiques pour les 
+                élèves. Sur ce site vous pouvez trouver une carte indiquant des moyens de locomotion, dits verts, mis à votre disposition dans 
+                tout le campus. Vous pouvez aussi trouver un covoiturage de chez vous à votre lieu d'apprentissage en quelques cliques.
+            </p>
+
+            <p>
+                <a href="pages/apropos.html">en savoir plus...</a>
+            </p>
+
+        </section>
+
+        <section class="covoit">
+
+            <h1>Besoin d'un covoit'? </h1>
+
+            <form>
+
+                
+                <table>
+                    <h3> <i class="fas fa-map-signs"></i> Trouver un trajet </h3>
+                    <tr>
+                        <td> Départ</td>
+                        <td rowspan="2"><i class="fas fa-calendar-week"></i> Date</td>
+                        <td rowspan="2"><span class="fas fa-clock"></span>Heure</td>
+                        <td rowspan="4"><a href="../pages/trouver.html"><i class="fas fa-search loupe"></i></a></td>
+                    </tr>
+
+                    <tr>
+                        <td> <input placeholder="ex : IUT A Lille..." type="text" tabindex="1" required></td>
+                       
+                        
+                    </tr>
+
+                    <tr>
+                        <td> Destination</td> 
+                        <td><input type="date" /> </td>
+                        <td><input type="time"/></td>
+                    </tr>
+
+                    <tr>
+                        <td><input placeholder="ex : Armentière..." type="text" tabindex="1" required></td>
+                        
+                    </tr>
+
+                </table>
+            </form>
+        </section>
+
+        <section class="locations">
+
+            <h1> Pour les courts trajets, pensez locations ! </h1>
+
+            <p>Pour faciliter vos déplacements pensez à la location de trottinettes électriques, de vélos, ou encore même de roller et en skate ! Avec moovle, se déplacer n'a jamais été aussi simple. </p>
+
+            <div class="choix">
+
+                <div class="sous-choix">
+
+                    <div class="img">
+
+                    <img src="images/Trottinette.png">
+
+                    </div>
+
+                    <div>
+
+                        <h3> Les trottinettes </h3>
+
+                        <h4>Pour des trajets courts et rapide, la trottinette est un excellent moyen de se déplacer à travers le campus! </h4>
+
+                        <p><a href="pages/location.html">en savoir plus...</a></p>
+                
+                    </div>
+
+                </div>
+
+                <div class="sous-choix">
+
+                    <div>
+
+                        <h3> Les vélos </h3>
+
+                        <h4> Pour les trajets un peu plus longs, en dehors du campus, n'hésitez plus ! Louez un vélo et facilitez-vous la vie. </h4>
+
+                        <p><a href="pages/location.html">en savoir plus...</a></p>
+                
+                    </div>
+
+                    <div class="img">
+
+                        <img src="images/velo.png">
+
+                    </div>
+
+                </div>
+
+                <div class="sous-choix">
+
+                    <div class="img">
+
+                        <img src="images/Rollers-amico.png">
+
+                    </div>
+
+                    <div>
+
+                        <h3> Les rollers/skates </h3>
+
+                        <h4> Pour les amateurs, nous proposons aussi des locations de skates et de rollers au mois ou à  l'année.</h4>
+
+                        <p> <a href="pages/location.html">en savoir plus... </a></p>
+                
+                    </div>
+
+                </div>
+
+            </div>  
+
+
+        </section>
+
+        <footer>
+
+            <div class="footer">
+
+                <div class="sous-footer">
+
+                    <h4>A propos</h4>
+                    <p>Conseils général d'utilisation</p>
+                    <p>Données personnelles </p>
+                    <p>Mentions légales</p>
+                    <p><a href="pages/signalez.html">Signalez un abus </a> </p>
+
+
+                </div>
+
+                <div class="sous-footer">
+
+                    <h4>Moodle</h4>
+                    <p>Qui sommes-nous?</p>
+                    <p><a href="https://ent.univ-lille.fr/"><i class="far fa-hand-point-left"></i> Retour à l'Ent </a></p>
+                    
+                </div>
+
+                <div class="sous-footer">
+                    <h4>Methodes de paiements</h4>
+                    <img src="images/paiement.png" alt="methode de paiement">
+                </div>
+
+
+
+            </div>
+        </footer>
+</body>
+</html>
+
+

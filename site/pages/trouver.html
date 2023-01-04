@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trouver un trajet - Moovle</title>
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/trouver.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/ecff8d8d3f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header> 
+        <table class="premierelig" >
+            <tr>
+                <td> 
+                    <select name="langue" required>
+                        <option value="">Français (fr)</option>
+                        <option value="">Anglais (en)</option>
+                    </select>
+                </td>
+                <td>                                     </td>
+                <td class="images"><a href="messagerie.html"><img src="../images/bulle2.png" alt="Tchat" class="petit"/></a><a href="profil.html"><img src="../images/personne1.png" alt="Personne" class="petit"/></a></td>
+            </tr>
+        </table>
+
+        <p class="deuxiemelig">
+            <a href="../index2.html"><img src="../images/logo2.png" alt="Logo IUT A" class="logo"/></a>
+            <a href="index2.html"><img src="../images/Logomoovle2.png" alt="Moovle ULille" class="moovle"></a>
+        </p>
+
+        <nav>
+            <ul>
+                <li><a href="../index2.html">Accueil</a></li>
+                <li class="deroulant"><a href="../pages/covoiturage.html">Covoiturage </a>
+                    <ul class="sous">
+                        <li><a href="../pages/proposer.html">Proposer un trajet</a></li>
+                        <li><a href="../pages/trouver.html">Trouver un trajet</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant"><a href="../pages/location.html">Locations </a>
+                    <ul class="sous">
+                        <li><a href="../pages/location.html">Vélos et trottinettes</a></li>
+                        <li><a href="../pages/location.html">Rollers et skateboards</a></li>
+                    </ul>
+                </li>
+                <li><a href="../pages/apropos.html">A propos</a></li>
+            </ul>
+            </nav>
+
+    </header>
+
+    <main>
+
+        <section class="covoit">
+
+            <p><a href="../pages/proposer.html"><button class ="first">⊕ Proposer un trajet</button></a></p>
+
+            <h1>Besoin d'un covoit'? </h1>
+
+            <form>
+
+                
+                <table>
+                    <h3> <i class="fas fa-map-signs"></i> Trouver un trajet </h3>
+                    <tr>
+                        <td> Départ</td>
+                        <td rowspan="2"><i class="fas fa-calendar-week"></i> Date</td>
+                        <td rowspan="2"><span class="fas fa-clock"></span>Heure</td>
+                        <td rowspan="4"><a href="../pages/trouver.html"><i class="fas fa-search loupe"></i></a></td>
+                    </tr>
+
+                    <tr>
+                        <td> <input placeholder="ex : IUT A Lille..." type="text" tabindex="1" required></td>
+                       
+                        
+                    </tr>
+
+                    <tr>
+                        <td> Destination</td> 
+                        <td><input type="date" /> </td>
+                        <td><input type="time"/></td>
+                    </tr>
+
+                    <tr>
+                        <td><input placeholder="ex : Armentière..." type="text" tabindex="1" required></td>
+                        
+                    </tr>
+
+                </table>
+            </form>
+        </section>
+
+        <section class="liste">
+
+           
+
+            <h1>Suggestion en fonctions de vos dernières recherches :</h1> 
+                <h1> Vendredi 6 novembre </h1>
+            <h2> à : 8h00</h2>
+
+            <form>
+                <label for="filtre">Filtrer par</label>
+                <select name="filtre" id="filtre">
+                    <option value="prix-croissant">Prix croissant</option>
+                    <option value="prix-decroissant">Prix décroissant</option>
+                    <option value="ordre-chrono">Ordre chronologique</option>
+                </select>
+
+                <input type="submit" value="Rafraîchir">
+
+              </form>
+
+            <div>
+                <div>
+                    <table>
+                        <tr>
+                            <td> <img src="../images/Audrey.png" alt="Audrey"> </td>
+                            <th colspan="2">Cité Scientifique <i class="fas fa-arrow-right arrow"></i> Bailleul</th>
+                            <th rowspan="3">6.00€</th>
+                        </tr>
+                        <tr>
+                            <td>Audrey</td>
+                            <td> <span class="fas fa-clock"></span> Départ : 7h30</td>
+                            <td> <span class="fas fa-clock"></span> Arrivée : 8h00</td>
+                        </tr>
+                        <tr>
+                            <td><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fas fa-star-half checked"></span>4,7</td>
+                                <th colspan="2"><button class="Réserver"><span class="fas fa-check"></span> Réserver</button></th>
+                        </tr>
+                    </table>
+                </div>
+                </div>
+
+                <div>
+                    <table>
+                        <tr>
+                            <td> <img src="../images/Hugo.png" alt="Hugo"> </td>
+                            <th colspan="2">Cité Scientifique <i class="fas fa-arrow-right arrow"></i> Bailleul</th>
+                            <th rowspan="3">6.00€</th>
+                        </tr>
+                        <tr>
+                            <td>Hugo</td>
+                            <td> <span class="fas fa-clock"></span> Départ : 7h30</td>
+                            <td> <span class="fas fa-clock"></span> Arrivée : 8h00</td>
+                        </tr>
+                        <tr>
+                            <td><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fas fa-star-half checked"></span>4,5</td>
+                                <th colspan="2"><button class="Réserver"><span class="fas fa-check"></span> Réserver</button></th>
+                        </tr>
+                    </table>
+                </div>
+                </div>
+
+                <div>
+                    <table>
+                        <tr>
+                            <td> <img src="../images/Julie.png" alt="Julie"> </td>
+                            <th colspan="2">Cité Scientifique <i class="fas fa-arrow-right arrow"></i> Bailleul</th>
+                            <th rowspan="3">6.00€</th>
+                        </tr>
+                        <tr>
+                            <td>Julie</td>
+                            <td><span class="fas fa-clock"></span> Départ : 7h30</td>
+                            <td> <span class="fas fa-clock"></span> Arrivée : 8h00</td>
+                        </tr>
+                        <tr>
+                            <td><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fas fa-star-half checked"></span>4,5</td>
+                                <th colspan="2"><button class="Réserver"><span class="fas fa-check"></span> Réserver</button></th>
+                        </tr>
+
+                    </table>
+                </div>
+                </div>
+
+                <div>
+                    <table>
+                        <tr>
+                            <td> <img src="../images/Nathan.png" alt="Nathan"> </td>
+                            <th colspan="2">Cité Scientifique <i class="fas fa-arrow-right arrow"></i> Bailleul</th>
+                            <th rowspan="3">6.00€</th>
+                        </tr>
+                        <tr>
+                            <td>Nathan</td>
+                            <td> <span class="fas fa-clock"></span> Départ : 7h30</td>
+                            <td> <span class="fas fa-clock"></span> Arrivée : 8h00</td>
+                        </tr>
+                        <tr>
+                            <td><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span> 4,2</td>
+                                <th colspan="2"><button class="Réserver"><span class="fas fa-check"></span> Réserver</button></th>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+            <div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer">
+
+            <div class="sous-footer">
+
+                <h4>A propos</h4>
+                <p>Conseils général d'utilisation</p>
+                <p>Données personnelles </p>
+                <p>Mentions légales</p>
+                <p><a href="../pages/signalez.html">Signalez un abus </a> </p>
+
+            </div>
+
+            <div class="sous-footer">
+
+                <h4>Moodle</h4>
+                <p>Qui sommes-nous?</p>
+                <p><a href="https://ent.univ-lille.fr/"><i class="far fa-hand-point-left"></i> Retour à l'Ent </a></p>
+                
+            </div>
+
+            <div class="sous-footer">
+                <h4>Methodes de paiements</h4>
+                <img src="../images/paiement.png" alt="methode de paiement">
+            </div>
+
+
+
+        </div>
+    </footer>
+</body>
+</html>
